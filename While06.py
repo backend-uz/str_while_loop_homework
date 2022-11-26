@@ -15,4 +15,4 @@ def main(s):
             c += 1
         i += 1
     return c
-print(main('SalOm'))
+print(main('CodeschoolUz'))
