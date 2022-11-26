@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i = 0
+    c = 0
+    while i < len(s):
+        if not s[i].isdigit() and not s[i].isalpha():
+            c += 1
+        i += 1
+    return c
+print(main('123abc#.$%'))
