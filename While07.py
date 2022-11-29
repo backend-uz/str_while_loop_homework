@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i = 0
+    c = 0
+    # l = len(s)
+    while i < len(s):
+        if int(s[i])%2 == 0:
+            c += 1
+        i += 1
+    return c
+print(main("1234"))
